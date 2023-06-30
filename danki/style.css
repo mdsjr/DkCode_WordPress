@@ -5,7 +5,9 @@
 	font-family: 'Roboto', sans-serif;
 
 }
-
+/*
+	Classes Auxiliares
+*/
 .center{
 	max-width: 1100px;
 	margin: 0 auto;
@@ -13,10 +15,13 @@
 }
 .clear{clear: both;}
 
+.w50{float: left; width: 50%; padding: 0 15px;}
+
+/**/
 section.topo{
 	background-image: linear-gradient(114deg, #250e8a, #00f9f7);
 	padding-top: 48px;
-	padding-bottom: 80px;
+	padding-bottom: 60px;
 
 }
 
@@ -40,4 +45,37 @@ section.topo{
 
 .menu-desktop a:houver{
 	opacity: 1;
+}
+
+.time-descricao{
+	color:white;
+	margin-top: 50px;
+}
+
+.time-descricao h2{
+	font-size: 45px;
+}
+
+.time-descricao p{
+	font-size: 14px;
+	margin-top: 10px;
+	max-width: 240px;
+}
+
+.time-descricao a{
+	display: inline-block;
+	margin-top: 14px;
+	padding: 10px 8px;
+	text-decoration: none;
+	color: #1b49a5;
+	font-weight: bold;
+	border-radius: 8px;
+	background: #ffca00;
+	box-shadow: 0 20px 30px 0 rgba(37, 15, 138, 0.2);
+}
+
+.time-imagem img{max-width: 100%;}
+
+@media screen and (max-width: 768px){
+	.w50{width: 100%}
 }
